@@ -1,0 +1,47 @@
+body{
+      margin: 0;
+      background-color:#f1f1f1 ;
+}
+header{
+    background-color:pink;
+}
+nav{
+    overflow: hidden;
+    background: color yellow; 
+}
+nav a{
+    float: left;
+     color: #f1f1f1;
+     padding: 10px 10px 10px 10px ;
+     text-decoration: none;
+}
+nav a :hover{
+    background-color: yellow;
+    color:white;
+}
+.column{
+    float:left;
+    padding:10px;
+}
+.column.side{
+    width:25%;
+}
+.column.middle{ 
+    width: 50%;
+}
+/* this ia a paragraph */
+p{
+    text-align: justify;
+}
+
+ 
+    
+
+footer{
+    clear:both;
+    background-color:green;
+	padding:10px;
+	margin:10px;
+	font-family:"comic sans ms";
+	 text-align:center;
+  }
